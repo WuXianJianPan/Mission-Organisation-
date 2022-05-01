@@ -54,6 +54,9 @@ class Searching extends React.Component {
   }
   onSearch = (value) => {
     if(value === '' || value === null){
+      this.setState({
+        showList:data
+      })
       return
     }
     let res = data.filter(item=>item['Organisation Name'].indexOf(value)>=0);
