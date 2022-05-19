@@ -1,0 +1,181 @@
+.researchWrapper {
+    letter-spacing: 0.5px;
+}
+
+.researchTitleBox {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 10rem 0;
+}
+
+.researchHead {
+    width: 45%;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+.researchHead div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.researchTitle {
+    width: 45%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.researchPassport{
+    width: 110vw;
+    position: relative;
+    left: -7%;
+    height: 40vw;
+    background-image: url("../img/passport.jpg");
+    background-position: 50% 0;
+    background-size: cover;
+    margin-bottom: 5rem;
+}
+
+.researchMain{
+
+    padding: 3rem;
+    background-color: white;
+    font-size: 1rem;
+}
+.researchBack{
+    display: flex;
+    justify-content: space-between;
+}
+.researchBackground{
+    width: 30%;
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 700;
+}
+.researchBackContent{
+    width: 60%;
+}
+.researchBackContent div{
+    margin-bottom: 1rem;
+}
+.researchBackContent div:first-child{
+    color: #2f54eb;
+}
+
+.researchPSW{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+.researchPSWContent{
+    width: calc(90% - 15rem);
+}
+.researchPSWContent div{
+    margin-bottom: 1rem;
+}
+.researchPSWContent div:first-child{
+    color: #2f54eb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.researchPSWImg{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 5rem;
+    background-image: url("../img/PSW.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.researchMiddle{
+    font-size: 2.5rem;
+    padding: 5rem;
+    font-style: italic;
+    color: #2f54eb;
+}
+
+.researchPerTitle{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.researchPer{
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.researchPerImg{
+    width: 30%;
+    background-image: url("../img/PERSONA.jpg");
+    background-position: 30% 50%;
+    background-size: cover;
+    height: calc((92vw - 8rem)*0.37);
+}
+
+.researchPerMain{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.researchPerMiddle{
+    font-size: 2.5rem;
+    color: #2f54eb;
+    font-style: italic;
+    padding: 4rem 5rem;
+}
+
+.researchPerSelf{
+    padding: 3rem;
+    font-size: 1rem;
+}
+.researchProblem{
+    margin-top: 5rem;
+    padding: 3rem;
+    background-color: white;
+    font-size: 1rem;
+}
+.researchProblem > div:first-child{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.researchProblemFlex{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.researchProblemFlex > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    width: 40%;
+}
+.researchProblemImg{
+    background-color: #FAEEE6;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.researchProblemImg img{
+    width: 55%;
+    height: 55%;
+    display: block;
+}
+.researchProText{
+    margin-top: 2rem;
+}

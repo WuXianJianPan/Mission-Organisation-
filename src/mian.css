@@ -1,0 +1,52 @@
+.wrapper{
+    width: 100%;
+    padding: 3rem 4%;
+    background-color: #FEFDEF;
+    /*border-radius: 5rem;*/
+}
+.topBox{
+    display: flex;
+    justify-content: space-between;
+}
+.leftTop, .rightTop{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3rem;
+    padding: 0 1rem;
+    background-color: white;
+}
+.leftTop div, .rightTop div{
+    box-sizing: border-box;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #717071;
+    font-weight: 600;
+}
+.leftTop div:hover, .rightTop div:hover{
+    /*background-color: #606060;*/
+    cursor: pointer;
+}
+.leftTop .certified{
+    color: black;
+}
+.rightTop div{
+    color: black;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color: #717071;
+    font-size: 1rem;
+    padding: 3rem 0;
+}
+a{
+    color: #606060;
+}
+a:hover{
+    color: rgba(88, 135, 198, 0.8);
+}
+
+.active{
+    color: black;
+}

@@ -1,4 +1,16 @@
 .Wrapper{
-  width: 70%;
-  margin: 100px auto;
+  width: 100vw;
+  /*background-color: #606060;*/
+  /*padding-top: 5rem;*/
+}
+.main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.opacity-0{
+  opacity: 0;
+}
+.opacity-1{
+  opacity: 1;
 }
